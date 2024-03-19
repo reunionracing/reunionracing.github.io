@@ -27,7 +27,7 @@ Params:
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
-  logoSmall: "favicon-32x32.png"
+  logoSmall: ""
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
   background: "tdf-1.jpg"
@@ -42,7 +42,7 @@ Params:
   #   - delight is the light version of osprey-delight
   #   - dedark is the dark version of "delight"
   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
-  theme: "delight"
+  theme: "dedark"
 
   # tagline (followed by a cursor) is shown at the top, below the logo
   #tagline: "Welcome!"
