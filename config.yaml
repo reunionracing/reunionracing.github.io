@@ -17,7 +17,7 @@ Params:
 
   description: "Reunion Racing"
 
-  logoBig: "rr_crest_r2.png"
+  logoBig: "rr_logo_full_r2.png"
 
   logoSmall: ""
   
@@ -29,7 +29,7 @@ Params:
 
   theme: "dedark"
 
-  mdTagline: "# R&eacute;union\n ## Racing"
+  mdTagline: " "
 
   enforceSinglePage: false
 
@@ -54,7 +54,6 @@ Params:
   
   Image:
     Logo:
-      resize: "200x"
 
     Gallery:
       resize: "600x"
