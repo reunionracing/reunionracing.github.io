@@ -126,7 +126,7 @@ Params:
 ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
 Menu:
   Main:
-    - name: "About"
+    - name: "About Us"
       # identifier controls the section type (and therewith the appearence).
       identifier: about 
       # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
