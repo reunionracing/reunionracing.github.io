@@ -17,7 +17,7 @@ Params:
 
   description: "Reunion Racing"
 
-  logoBig: ""
+  logoBig: "rr_crest_r2.png"
 
   logoSmall: ""
   
@@ -54,7 +54,7 @@ Params:
   
   Image:
     Logo:
-      resize: "600x"
+      resize: "200x"
 
     Gallery:
       resize: "600x"
