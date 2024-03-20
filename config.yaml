@@ -61,7 +61,22 @@ Params:
     Background:
       resize: "1920x"
       resizeLQIP: "256x"
-  
+ 
+    lazyimg:
+      resizer: auto
+      renderer: lqip-webp
+
+      # Resizer options:
+      lqipSize: "120x Gaussian"
+      maxSize: "1920x"
+      responsiveSizes: ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
+      resizeOptions: "Lanczos q95"
+    
+      # Renderer options:
+      #class: ""
+      #alt: ""
+      noscript: true
+      
 Menu:
   Main:
     - name: "About"
@@ -83,3 +98,4 @@ Menu:
       identifier: contact
       url: "/#joinus"
       weight: 5
+
