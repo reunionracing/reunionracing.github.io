@@ -42,7 +42,7 @@ Params:
       url: "https://instagram.com/reunionracing"
 
   Feat:
-    ajaxBasin: "https://usebasin.com/f/{YOUR-12-CHAR-FORM-KEY-HERE}"
+    ajaxBasin: "ttps://usebasin.com/f/05b9ff03d2b1"
 
     useStructuredData: true
 
@@ -80,6 +80,6 @@ Menu:
       weight: 4
 
     - name: "Join Us"
-      identifier: joinus
+      identifier: contact
       url: "/#joinus"
       weight: 5
