@@ -31,7 +31,7 @@ Params:
 
   mdTagline: " "
 
-  enforceSinglePage: true
+  enforceSinglePage: false
 
   copyright: true
 
@@ -62,24 +62,24 @@ Params:
       resize: "1920x"
       resizeLQIP: "256x"
   
-  lazyimg:
-     resizer: auto
-     renderer: lqip-webp
-
-  Resizer options:
-     lqipSize: "120x Gaussian"
-     maxSize: "1920x"
-     responsiveSizes: ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
-     resizeOptions: "Lanczos q95"
-
-  Renderer options:
-    class: ""
-    alt: ""
-    noscript: true
-
 Menu:
   Main:
-    - name: "About Us"
+    - name: "About"
       identifier: about 
       url: "/#about"
       weight: 1
+
+    - name: "Partners"
+      identifier: gallery
+      url: "/#partners"
+      weight: 3
+
+    - name: "Blog"
+      identifier: blog
+      url: "/#blog"
+      weight: 4
+
+    - name: "Join Us"
+      identifier: joinus
+      url: "/#joinus"
+      weight: 5
