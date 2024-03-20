@@ -19,11 +19,11 @@ Params:
 
   logoBig: "rr_logo_full_r2.png"
 
-  logoSmall: ""
+  logoSmall: "rr_crest_r2.png"
   
   background: "tdf-1.jpg"
   
-  opengraphImage: "/images/osprey-delight.png"
+  opengraphImage: "rr_crest_r2.png"
 
   favicon: "favicon-16x16.png"
 
@@ -31,7 +31,7 @@ Params:
 
   mdTagline: " "
 
-  enforceSinglePage: false
+  enforceSinglePage: true
 
   copyright: true
 
@@ -61,6 +61,21 @@ Params:
     Background:
       resize: "1920x"
       resizeLQIP: "256x"
+  
+  lazyimg:
+     resizer: auto
+     renderer: lqip-webp
+
+  Resizer options:
+     lqipSize: "120x Gaussian"
+     maxSize: "1920x"
+     responsiveSizes: ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
+     resizeOptions: "Lanczos q95"
+
+  Renderer options:
+    class: ""
+    alt: ""
+    noscript: true
 
 Menu:
   Main:
