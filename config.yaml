@@ -42,7 +42,7 @@ Params:
       url: "https://instagram.com/reunionracing"
 
   Feat:
-    ajaxBasin: "ttps://usebasin.com/f/05b9ff03d2b1"
+    ajaxBasin: "https://usebasin.com/f/05b9ff03d2b1"
 
     useStructuredData: true
 
