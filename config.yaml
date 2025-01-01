@@ -1,7 +1,7 @@
 title: "Reunion Racing"
 baseURL: "https://reunionracing.org"
 languageCode: "en-US"
-theme: "github.com/kdevo/osprey-delight/v5"
+theme: "github.com/pacogomez/osprey-delight"
 tags: ["cycling"]
 disableKinds: ["taxonomy"]
 enableEmoji: true
@@ -9,7 +9,7 @@ pygmentsUseClasses: true
 
 module:
   imports:
-  - path: github.com/kdevo/osprey-delight/v5
+    - path: github.com/pacogomez/osprey-delight
 
 Params:
   author:
@@ -20,9 +20,9 @@ Params:
   logoBig: "rr_logo_full_r2.png"
 
   logoSmall: "rr_crest_r2.png"
-  
+
   background: "tdf-1.jpg"
-  
+
   opengraphImage: "rr_crest_r2.png"
 
   favicon: "favicon-16x16.png"
@@ -36,7 +36,7 @@ Params:
   copyright: true
 
   Social:
-    - type: facebook  
+    - type: facebook
       url: "https://facebook.com/reunionracing"
     - type: instagram
       url: "https://instagram.com/reunionracing"
@@ -51,7 +51,7 @@ Params:
     googleTagManager: ""
 
     notifyOnNewThemeVersion: true
-  
+
   Image:
     Logo:
 
@@ -61,7 +61,7 @@ Params:
     Background:
       resize: "1920x"
       resizeLQIP: "256x"
- 
+
     lazyimg:
       resizer: auto
       renderer: lqip-webp
@@ -69,18 +69,19 @@ Params:
       # Resizer options:
       lqipSize: "120x Gaussian"
       maxSize: "1920x"
-      responsiveSizes: ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
+      responsiveSizes:
+        ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
       resizeOptions: "Lanczos q95"
-    
+
       # Renderer options:
       #class: ""
       #alt: ""
       noscript: true
-      
+
 Menu:
   Main:
     - name: "About"
-      identifier: about 
+      identifier: about
       url: "/#about"
       weight: 1
 
@@ -98,4 +99,3 @@ Menu:
       identifier: contact
       url: "/#joinus"
       weight: 5
-
