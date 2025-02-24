@@ -1,0 +1,67 @@
+/* Full-width Ethos background */
+.ethos-full-width {
+  background-color: #ffffff; /* White background */
+  width: 100vw; /* Full viewport width */
+  margin: 0; /* Remove margins */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 4rem 0; /* Add vertical padding */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Reset container alignment */
+.ethos-full-width .about-subsection {
+  margin: 0 auto; /* Center the content */
+  padding: 0 1rem; /* Add padding for smaller screens */
+  text-align: center;
+}
+
+/* Remove inherited styles */
+.ethos-full-width .about-subsection * {
+  margin: 0;
+  padding: 0;
+}
+
+/* Title styling */
+.ethos-full-width .about-subsection h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d4a017; /* Gold color */
+  margin-bottom: 1.5rem;
+}
+
+/* Paragraph styling */
+.ethos-full-width .about-subsection p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333; /* Neutral dark text */
+  margin-bottom: 1.5rem;
+}
+
+/* Image styling */
+.ethos-full-width .about-subsection img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  opacity: 0.8; /* Slightly faded for aesthetics */
+}
+
+.ethos-full-width a,
+.about-subsection a,
+a {
+  all: unset; /* Resets all inherited styles */
+  color: #d89700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.ethos-full-width a:hover,
+.about-subsection a:hover,
+a:hover {
+  color: #d89700;
+  opacity: 0.7;
+  text-decoration: none;
+}
