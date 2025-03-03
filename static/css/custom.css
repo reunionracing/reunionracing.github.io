@@ -51,7 +51,7 @@
 .ethos-full-width a,
 .about-subsection a,
 a {
-  all: unset; /* Resets all inherited styles */
+  all: unset;
   color: #d89700;
   cursor: pointer;
   text-decoration: none;
@@ -64,4 +64,21 @@ a:hover {
   color: #d89700;
   opacity: 0.7;
   text-decoration: none;
+}
+
+.oui-container {
+  position: relative; /* Allows absolute positioning inside */
+  display: inline-block; /* Wraps content properly */
+}
+
+.bikers-img {
+  width: 100vw; /* Ensures the image is responsive */
+  display: block; /* Removes unwanted spaces */
+}
+
+.oui-content {
+  position: absolute;
+  top: 50%; /* Moves the OUI image vertically */
+  left: 50%; /* Moves the OUI image horizontally */
+  transform: translate(-50%, -50%); /* Centers it */
 }

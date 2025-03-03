@@ -1,5 +1,5 @@
 title: "Reunion Racing"
-baseURL: "https://reunionracing.org"
+baseURL: ${HUGO_BASEURL}
 languageCode: "en-US"
 theme: "github.com/pacogomez/osprey-delight"
 tags: ["cycling"]
